@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    padding: 10px;
+    /* box-shadow: 5px 10px  #888888; */
+    box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+    width:1000px;
+    height:650px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.box{
+   border:1px solid black;
+   height: 200px;
+   width:300px;
+   margin-top: 10px;
+   
+}
+
+.emptydiv{
+    
+    height: 20px;
+    width:90px;
+    margin-top: 100px; 
+}
+.leftdiv{
+    
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 550px;
+    margin-left: 40px;
+    
+
+}
+.circle{
+     margin: 0 auto 5px;
+     border: 1px solid black;
+     border-radius: 50%;
+     width:30%;
+     height: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+
+.circlesDiv{
+    border-radius:5px;
+    width:20%;
+    height: 5%;
+    margin:auto;
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding:15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.assignCircles{
+    border: 1px solid black;
+    border-radius: 50%;
+    width:50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#c1{
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(252, 0, 126);
+    background-color: rgb(252, 0, 126);
+    text-align: center;
+}
+#c2{
+    border: 1px solid rgb(68, 212, 32);
+    background-color: rgb(68, 212, 32);
+    font-size: 20px;
+}
+#c3{
+    border: 1px solid rgb(12, 219, 255);
+    background-color: rgb(12, 219, 255);
+    font-size: 20px;
+}
+#c4{
+    border: 1px solid rgb(192, 204, 18);
+    background-color: rgb(192, 204, 18);
+    font-size: 20px;
+}
+#c5{
+    border: 1px solid rgb(230, 42, 8);
+    background-color: rgb(230, 42, 8);
+    font-size: 20px;
+}
